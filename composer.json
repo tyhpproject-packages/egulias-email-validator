@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/egulias-email-validator",
+    "description": "Tyhp type definitions for egulias/email-validator 4.0.4.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "4.0.4",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/egulias-email-validator-impl": "~4.0.4.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/egulias-email-validator-impl"
+        }
+    }
+}
